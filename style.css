@@ -1,18 +1,33 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrat/Montserrat-Italic-VariableFont_wght.ttf);
+    font-style: normal;
+    font-display: swap  ;
+}
+
 
 :root{
+
+    --primary-color: #8f0101 ;
+    --secondary-color: #b81515;
+
+
     /* background */
     --background-primary-color: #ffffff ;
     --background-secondary-color:  #f5f5f5;
     --background-tertiary-color:  #000000;
 
-    /* butoon */
-    --butoon-primary-color: #8f0101 ;
-    --butoon-secondary-color: #b81515;
+    --primary-color: #8f0101 ;
+    --secondary-color: #b81515;
 
     /* text */
     --texte-primary-color:#222222  ;
     --texte-secondery-color: #ffffff ;
-    --texte-tertiary-color:  ;
+
+    --title-weight: 700 ;
+    --text-weight: 400;
+    --menu-text-weight: 500;
+
 
 
 }
