@@ -1,0 +1,45 @@
+header {
+  background-color: var(--background-tertiary-color);
+  display: flex;
+  max-height: 138px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 38px 48px;
+}
+
+.logo_cabecalho {
+  display: inline-block;
+  width: 68px;
+  height: 64px;
+}
+
+.navegacao {
+  margin-top: 24px;
+}
+
+.link_header {
+  text-decoration: none;
+  /* color: var(--texte-secondery-color);
+  font-family: var(--font-montserrat); */
+
+  font-weight: var(--text-weight);
+  transition: ease 0.2s;
+}
+
+.link_header:hover {
+  color: var(--primary-color);
+}
+nav {
+  display: none;
+}
+
+ul {
+  display: flex;
+}
+
+.menu_cabecalho {
+}
+
+@media screen {
+}
