@@ -6,6 +6,8 @@ header {
   justify-content: space-between;
   align-items: flex-start;
   padding: 38px 48px;
+  position: relative;
+  transition: 1s ease;
 }
 
 .logo_cabecalho {
@@ -16,6 +18,11 @@ header {
 
 .navegacao {
   margin-top: 24px;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 10px;
 }
 
 .link_header {
@@ -31,12 +38,12 @@ header {
 }
 nav {
   display: none;
-}
-
-ul {
-  display: flex;
-  flex: 1;
-  justify-content: space-between;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: var(--background-tertiary-color);
+  transition: 1s ease;
 }
 
 input {
@@ -53,15 +60,9 @@ input {
   }
 
   nav {
-    display: flex;
-    width: 100%;
+    display: block;
     height: 76px;
-    justify-content: space-between;
-    margin: 0;
-  }
-
-  a {
-    margin: 0 15px;
+    background-color: var(--background-tertiary-color);
   }
 
   .menu_cabecalho {
